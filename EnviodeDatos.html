@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>PROBANDO</title>
+</head>
+
+<body>
+    <div class="caontainer">
+        <div style="background-color: aqua; width: 50%;margin: 0 auto; margin-top: 150px; padding: 20px;">
+
+            <form method="post" action="#" enctype="multipart/form-data">
+                <div class="card" style="width: 18rem;">
+                    <input type="file" class="form-control-file" name="logoEmpresa" id="image">
+                    <input type="text" class="form-control" id="nombreUsuario" placeholder="nombreUsuario">
+                </div>
+                <!-- name="nombreUsuario" -->
+            </form>
+            <input type="button" class="btn btn-primary upload" value="Subir">
+        </div>
+    </div>
+
+    <button type="button" onclick="eliminarImagen()">Eliminar foto</button>
+    <input type="text" id="eliminarImagen" class="form-control" placeholder="íngrese la ruta a eliminar">
+    <div id="visorEliminar">
+
+    </div>
+    <div style="width: 100%; margin-top: 50px; background-color: aqua">
+        <div id="pro">
+        </div>
+
+    </div>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/controlador-empresa.js"></script>
+</body>
+
+</html>z
